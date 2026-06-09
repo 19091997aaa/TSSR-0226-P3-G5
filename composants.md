@@ -20,7 +20,7 @@ Ce dossier contient la configuration détaillée de chaque composant de l'infras
 | Paramètre | Valeur |
 |---|---|
 | Hyperviseur | VMware Workstation |
-| R-A-M | 1 GB |
+| `RAM` | 1 GB |
 | Disque | 8 GB |
 | Carte réseau 1 | VMnet8 (NAT) — WAN |
 | Carte réseau 2 | VMnet2 (LAN) |
@@ -69,7 +69,7 @@ Ce dossier contient la configuration détaillée de chaque composant de l'infras
 |---|---|
 | Hyperviseur | VMware Workstation |
 | OS | Windows Server 2022 Datacenter (Desktop Experience) |
-| RAM | 3 GB |
+| `RAM` | 3 GB |
 | Disque | 35 GB |
 | Carte réseau | VMnet2 (LAN) |
 
@@ -78,7 +78,7 @@ Ce dossier contient la configuration détaillée de chaque composant de l'infras
 | Paramètre | Valeur |
 |---|---|
 | IP | `10.0.1.1` |
-| Masque | `255.255.255.0` |
+| Masque réseau | `255.255.255.0` |
 | Passerelle | `10.0.1.254` |
 | DNS | `127.0.0.1` (lui-même) |
 
@@ -148,7 +148,7 @@ tssr.lan
 | Paramètre | Valeur |
 |---|---|
 | Plage | `10.0.1.50` → `10.0.1.240` |
-| Masque | `255.255.255.0` |
+| Masque réseau | `255.255.255.0` |
 | Passerelle distribuée | `10.0.1.254` |
 | DNS distribué | `10.0.1.1` |
 
@@ -183,7 +183,7 @@ tssr.lan
 |---|---|
 | Hyperviseur | VMware Workstation |
 | OS | Windows Server 2022 Datacenter |
-| RAM | 4 GB |
+| `RAM` | 4 GB |
 | Disque système | 35 GB |
 | Disque données | 100 GB (E:\WSUS) |
 | Carte réseau | VMnet2 (LAN) |
@@ -193,7 +193,7 @@ tssr.lan
 | Paramètre | Valeur |
 |---|---|
 | IP | `10.0.1.2` |
-| Masque | `255.255.255.0` |
+| Masque réseau | `255.255.255.0` |
 | Passerelle | `10.0.1.254` |
 | DNS | `10.0.1.1` |
 
@@ -229,7 +229,7 @@ tssr.lan
 |---|---|
 | Hyperviseur | VMware Workstation |
 | OS | Debian 12 (CLI) |
-| RAM | 2 GB |
+| `RAM` | 2 GB |
 | Disque | 20 GB |
 | Carte réseau | VMnet2 (LAN) |
 
@@ -238,7 +238,7 @@ tssr.lan
 | Paramètre | Valeur |
 |---|---|
 | IP | `10.0.1.3` |
-| Masque | `255.255.255.0` |
+| Masque réseau | `255.255.255.0` |
 | Passerelle | `10.0.1.254` |
 | DNS | `10.0.1.1` |
 
@@ -277,7 +277,7 @@ tssr.lan
 |---|---|
 | Hyperviseur | VMware Workstation |
 | OS | Linux (FreePBX ISO) |
-| RAM | 2 GB |
+| `RAM` | 2 GB |
 | Disque | 20 GB |
 | Carte réseau | VMnet2 (LAN) |
 
@@ -286,7 +286,7 @@ tssr.lan
 | Paramètre | Valeur |
 |---|---|
 | IP | `10.0.1.4` |
-| Masque | `255.255.255.0` |
+| Masque réseau | `255.255.255.0` |
 | Passerelle | `10.0.1.254` |
 | DNS | `10.0.1.1` |
 
@@ -303,7 +303,7 @@ tssr.lan
 | Paramètre | CLIWIN01 | CLIWIN02 |
 |---|---|---|
 | OS | Windows 11 | Windows 11 |
-| RAM | 4 GB | 4 GB |
+| `RAM` | 4 GB | 4 GB |
 | Disque | 64 GB (thin) | 64 GB (thin) |
 | Carte réseau | VMnet2 (LAN) | VMnet2 (LAN) |
 

@@ -37,7 +37,7 @@ L'environnement est entièrement virtualisé sur **VMware Workstation**, avec le
 
 | Zone | Réseau | Passerelle | Usage |
 |---|---|---|---|
-| WAN | `192.168.50.0/24` | `192.168.50.1` (box FAI) | Accès Internet — VMnet8 NAT |
+| Wan | `192.168.50.0/24` | `192.168.50.1` (box FAI) | Accès Internet — VMnet8 NAT |
 | LAN | `10.0.1.0/24` | `10.0.1.254` (FW01) | Réseau interne |
 | DMZ | `10.0.2.0/24` | `10.0.2.254` (FW01) | Zone exposée — Phase 2 |
 

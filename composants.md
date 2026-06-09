@@ -157,7 +157,7 @@ tssr.lan
 | Paramètre | Valeur |
 |---|---|
 | Zone directe | `tssr.lan` |
-| Forwarders | `8.8.8.8`, `8.8.4.4` |
+| Forwarders | `8.8.8.8`, |
 
 ### NTP
 

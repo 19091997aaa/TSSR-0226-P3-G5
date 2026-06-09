@@ -102,8 +102,8 @@ Accessible depuis Internet sur les ports 80 et 443 via une règle pfSense.
 | LAN | DMZ | Autres | ❌ Bloqué |
 | DMZ | Internet | 80, 443 | ✅ Autorisé |
 | DMZ | LAN | Tous | ❌ Bloqué |
-| WAN | DMZ | 80, 443 | ✅ Autorisé *(Phase 2)* |
-| WAN | LAN | Tous | ❌ Bloqué |
+| ext-wan | DMZ | 80, 443 | ✅ Autorisé *(Phase 2)* |
+| ext-wan | LAN | Tous | ❌ Bloqué |
 
 ---
 

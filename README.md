@@ -77,7 +77,7 @@ L'objectif est la conception, le déploiement et la documentation complète d'un
 | SRVWIN04 | WSUS | Windows Server 2022 Datacenter | `10.0.1.2` |
 | SRVLX01 | GLPI + Messagerie | Debian 12 | `10.0.1.3` |
 | IPBX01 | VoIP FreePBX | — | `10.0.1.4` |
-| CLIWIN01 | Client Windows 10 | Windows 10 | DHCP (`10.0.1.50–240`) |
+| CLIWIN01 | Client Windows 11 | Windows 11 | DHCP (`10.0.1.50–240`) |
 | CLIWIN02 | Client Windows 11 | Windows 11 | DHCP (`10.0.1.50–240`) |
 
 ---

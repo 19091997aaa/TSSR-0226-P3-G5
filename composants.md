@@ -20,7 +20,7 @@ Ce dossier contient la configuration détaillée de chaque composant de l'infras
 | Paramètre | Valeur |
 |---|---|
 | Hyperviseur | VMware Workstation |
-| R A M | 1 GB |
+| R-A-M | 1 GB |
 | Disque | 8 GB |
 | Carte réseau 1 | VMnet8 (NAT) — WAN |
 | Carte réseau 2 | VMnet2 (LAN) |

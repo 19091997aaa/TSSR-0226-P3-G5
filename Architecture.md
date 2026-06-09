@@ -15,7 +15,7 @@
 
 L'infrastructure BillU repose sur une architecture **3 zones** séparées par un pare-feu pfSense :
 
-- **Wan** — connexion Internet via VMnet8 (NAT)
+-   WAN — connexion Internet via VMnet8 (NAT)
 - **LAN** — réseau interne hébergeant tous les serveurs et clients
 - **DMZ** — zone exposée pour les services accessibles depuis Internet (Phase 2)
 
